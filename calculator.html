@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>Masai Calculator</title>
+</head>
+
+<body>
+    <h1>Masai Calculator</h1>
+    <div>
+        <input type="text" id="problem">
+        <div id="calculatorButton">
+            <button class="digit" value="1" onClick="display('1')">1</button>
+            <button class="digit" value="2" onClick="display('2')">2</button>
+            <button class="digit" value="3" onClick="display('3')">3</button>
+            <button class="operation" value="+" onClick="display('+')">+</button>
+            <button class="digit" value="4" onClick="display('4')">4</button>
+            <button class="digit" value="5" onClick="display('5')">5</button>
+            <button class="digit" value="6" onClick="display('5')">6</button>
+            <button class="operation" value="-" onClick="display('-')">-</button>
+            <button class="digit" value="7" onClick="display('7')">7</button>
+            <button class="digit" value="8" onClick="display('8')">8</button>
+            <button class="digit" value="9" onClick="display('9')">9</button>
+            <button class="operation" value="*" onClick="display('*')">x</button>
+            <button id="clear" onClick="clearScreen()">C</button>
+            <button class="digit" value="0" onClick="display('0')">0</button>
+            <button class="operation" value="=" onClick="solve()">=</button>
+            <button class="operation" value="/" onClick="display('/')">/</button>
+
+
+        </div>
+    </div>
+</body>
+<script src="./calculator.js"></script>
+
+</html>
